@@ -1,11 +1,8 @@
 from billboard_to_spotify import BillboardToSpotifyt
 import os
 USER_ID = os.environ["USER_ID"]
-print(USER_ID)
 CLIENT_ID = os.environ["CLIENT_ID"]
-print(CLIENT_ID)
 CLIENT_SECRET = os.environ["CLIENT_SECRET"]
-print(CLIENT_SECRET)
 REDIRECT_URI= 'https://example.com'
 
 ## enter a date for reaching top 100 song of this date
